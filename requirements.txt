@@ -1,11 +1,12 @@
 ipykernel
-numpy
-pandas
+numpy==1.26.4
+pandas=2.2.2
 matplotlib
 seaborn
 flask
 streamlit
 memory_profiler
-scikit-learn
-tensorflow
-nltk
+scikit-learn==1.5.1
+tensorflow==2.17.0
+nltk==3.8.1
+keras==3.4.1
