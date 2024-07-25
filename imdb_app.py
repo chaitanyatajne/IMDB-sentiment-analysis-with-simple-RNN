@@ -3,11 +3,14 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 import streamlit as st
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.layers import SimpleRNN,Dense,Dropout,Embedding
+from tensorflow.keras.models import Sequential
 from tensorflow.keras.preprocessing.text import one_hot
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
+nltk.download('stopwords')
 
 
 nltk.download('wordnet')
